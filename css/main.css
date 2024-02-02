@@ -1,0 +1,80 @@
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+/* General */
+*{
+    margin: auto;
+    font-family: 'Sixtyfour', sans-serif;
+    
+}
+
+body{
+    background-image: url("../images/eclipse.jpeg");
+    background-size: cover;
+}
+
+/* Header */
+header{
+    background-color: blanchedalmond;
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    color: blue;
+    border: solid 2px cyan;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /*margin: 10px 5px 15px 5px;*/
+}
+
+/* Navigation */
+nav{
+    background-color: blanchedalmond;
+    width: 50%;
+    text-align: center;
+    border: solid 2px cyan;
+    border-radius: 10px;
+}
+
+/* Nav text */
+a{
+    color:black;
+}
+a:hover{
+    color:brown;
+}
+
+/* Section */
+section{
+    background-color: blanchedalmond;
+    width: 90%;
+    height: 300px;
+    /* The border has 3 types of values: type of border, size and color*/
+    border: solid 2px cyan;
+    border-radius: 10px;
+}
+
+/* Main Section */
+main{
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 100px;
+    border: solid 2px cyan;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+div{
+    padding: 5px;
+}
+
+/* Footer Section */
+footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 50px;
+    border: solid 2px cyan;
+    border-radius: 10px;
+}
